@@ -1,0 +1,68 @@
+.book {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  background-color: rgb(222, 222, 222);
+  border-radius: 20px;
+}
+
+.book:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.book_elem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 110%;
+  color: #14233d;
+  margin-right: 30px;
+}
+
+.input_file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.label_img {
+  display: inline-block;
+  background-image: url(./imgs/img1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  width: 143px;
+  height: 40px;
+  left: 1210px;
+  top: 20px;
+  background: #eb5109;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 30px;
+}
